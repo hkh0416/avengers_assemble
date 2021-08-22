@@ -54,7 +54,7 @@ h2 {
 }
 
 a {
-    display: block;
+    display: inline-block;
     font-family: "Press Start 2P", cursive;
     font-size: 2rem;
     color: #fef2bf;
