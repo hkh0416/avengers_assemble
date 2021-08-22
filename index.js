@@ -13,6 +13,13 @@ $("body").keypress(function () {
     }
 });
 
+$("body").click(function () {
+    if (!gameStarted) {
+        gameStarted = true;
+        nextSequence();
+    }
+});
+
 // Button trigger
 $(".btn").click(function () {
     var userChosenColour = $(this).attr("id");
